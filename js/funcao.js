@@ -20,5 +20,6 @@ window.onload = function(){
         
         document.getElementById("acertos").innerHTML = "<u>Acertos: " + correto + "</u><br>" + qualC;
         document.getElementById("erros").innerHTML = "<u>Erros: " + incorreto + "</u><br>" + qualI;
+        
     }
 }
