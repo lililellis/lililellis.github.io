@@ -16,7 +16,7 @@ window.onload = function(){
     if(document.getElementById("7D").checked) { correto++; incorreto--; qualC = qualC + " 7;";} else {qualI = qualI + " 7;";}
     if(document.getElementById("8B").checked) { correto++; incorreto--; qualC = qualC + " 8;";} else {qualI = qualI + " 8;";}
     if(document.getElementById("9C").checked) { correto++; incorreto--; qualC = qualC + " 9;";} else {qualI = qualI + " 9;";}
-    if(document.getElementById("10D").checked){correto++; incorreto--; qualC = qualC + " 10;";} else {qualI = qualI + " 10;";}
+    if(document.getElementById("10A").checked){correto++; incorreto--; qualC = qualC + " 10;";} else {qualI = qualI + " 10;";}
         
         document.getElementById("acertos").innerHTML = "<u>Acertos: " + correto + "</u><br>" + qualC;
         document.getElementById("erros").innerHTML = "<u>Erros: " + incorreto + "</u><br>" + qualI;
